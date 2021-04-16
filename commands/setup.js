@@ -1,8 +1,8 @@
-module.exports = {
+Memberule.exports = {
 name: 'setup',
 description: "ping command",
 execute(message, args, Discord, client) {
-    if(message.member.roles.cache.some(r => r.name === "MOD")){
+    if(message.member.roles.cache.some(r => r.name === "Member")){
         
         message.channel.send('**Setup :**');
         message.channel.send('**Мишка** : Hama uRAGE Reaper 500')

@@ -1,8 +1,8 @@
-module.exports = {
+Memberule.exports = {
     name: 'twitch',
     description: "ping command",
     execute(message, args, Discord){
-        if(message.member.roles.cache.some(r => r.name === "MOD")){
+        if(message.member.roles.cache.some(r => r.name === "Member")){
 
     message.channel.send({embed: {
         color: 0x996699,

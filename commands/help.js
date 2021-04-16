@@ -4,7 +4,7 @@ module.exports = {
     description: "help",
     execute(message, args, Discord){
       
-      if(message.member.roles.cache.some(r => r.name === "MOD")){
+      if(message.member.roles.cache.some(r => r.name === "Member")){
 
         const exampleEmbed = {
           color: 0xCC6633,
