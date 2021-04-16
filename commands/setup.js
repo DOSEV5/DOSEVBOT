@@ -1,4 +1,4 @@
-Memberule.exports = {
+module.exports = {
 name: 'setup',
 description: "ping command",
 execute(message, args, Discord, client) {
