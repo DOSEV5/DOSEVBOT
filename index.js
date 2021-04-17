@@ -47,6 +47,8 @@ client.on("message", (message) => {
     client.commands.get("setup").execute(message, args, Discord);
   } else if (command === "invite") {
     client.commands.get("invite").execute(message, args, Discord);
+  } else if (command === "youtube2") {
+    client.commands.get("youtube2").execute(message, args, Discord);
   }
 });
 
