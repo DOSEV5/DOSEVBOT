@@ -11,7 +11,7 @@ module.exports = {
             name: "DOSEVBOT",
             icon_url:
               "https://cdn.discordapp.com/attachments/771376321207992360/832649679988326531/icon_2.png",
-            url: "http://www.youtube.com/c/DOSEV",
+            url: "https://www.youtube.com/channel/UC3S1xxkbexb_AZgNTusJ9yw",
           },
           description: "Линк : https://www.youtube.com/c/DOSEV",
         },
