@@ -3,6 +3,7 @@ module.exports = {
   description: "ping command",
   execute(message, args, Discord, client) {
     if (message.member.roles.cache.some((r) => r.name === "Member")) {
+      message.channel.send('https://cdn.discordapp.com/attachments/841361478052610078/841361514510155786/IMG_20210510_200903.jpg');
       message.channel.send("**Setup :**");
       message.channel.send("**Мишка** : Hama uRAGE Reaper 500");
       message.channel.send("**Клавиатура** : Trust GXT 856 Torac");
