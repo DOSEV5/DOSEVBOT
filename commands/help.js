@@ -14,7 +14,7 @@ module.exports = {
           url: "http://www.youtube.com/c/DOSEV",
         },
         description:
-          'Абонирайте се за моят канал. Също ако ви трябва помощ DOSEV#1278"',
+          'Абонирайте се за моят канал. Също ако ви трябва помощ DOSEV#5555"',
         thumbnail: {
           url:
             "https://cdn.discordapp.com/attachments/771376321207992360/832649679988326531/icon_2.png",

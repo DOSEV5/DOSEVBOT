@@ -8,7 +8,7 @@ module.exports = {
       message.channel.send("**Мишка** : Hama uRAGE Reaper 500");
       message.channel.send("**Клавиатура** : Trust GXT 856 Torac");
       message.channel.send(
-        "**Микофон** : Trust GXT 232 Mantis + стойка, за микрофон, от Gplay.bg"
+        "**Микрофон** : Trust GXT 232 Mantis + стойка, за микрофон, от Gplay.bg"
       );
       message.channel.send("**Слушалки** : Canyon CND-SGHS5A");
       message.channel.send("**Компютър** :");
