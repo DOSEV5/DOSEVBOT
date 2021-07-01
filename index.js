@@ -3,7 +3,8 @@ const client = new Discord.Client();
 const prefix = ".";
 
 client.on("ready", async () => {
-  console.log("ON");
+  channel = client.channels.cache.get('860233583011954708');
+  channel.send('Ботът е включен');
 
   //status
   client.user.setPresence({
